@@ -1,0 +1,84 @@
+/* @override 
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?mginps
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?mgiswl
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?mgivzk
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?mgj3ce
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-normal.css?mgqmks */
+
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+
+#logo {
+  width: 250px;
+}
+.logo-img {
+  float: left;
+}
+
+/* Search Form */
+#block-search-form {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 35px;
+  width: 300px;
+  z-index: 1;
+}
+
+#zone-menu {
+	position: absolute;
+	right: 0;
+	width: 65%;
+
+}
+
+#region-menu nav > ul.menu > li:hover > a,
+#region-menu nav > ul.menu > li > a.active-trail.active {
+	background: url(../images/nav-hover-ellipse.png) no-repeat center top;
+
+}
+
+#region-menu nav > ul.menu > li > a {padding-top: 40px;}
+
+#zone-header-wrapper {
+  margin-top: -30px;
+}
+#region-branding .region-inner {
+  padding: 0px 0px 20px;
+}
+#region-header-second {
+width: 20%; position: relative;margin-left: 80%;
+}
+
+#block-views-blog-block div.content div.view.view-blog.view-id-blog .views-row-odd {float: left; width: 49%;
+	margin-right: 2%;
+	margin-bottom: 10px;
+	height: 320px;
+}
+#block-views-blog-block div.content div.view.view-blog.view-id-blog .views-row-even {float: left; width: 49%;
+	margin-bottom: 10px;
+	height: 320px;
+}
+
+div.preface-blog, div.preface-galleries, div.preface-sponsor {
+	min-height: 250px;
+	width: 22%;
+	float: left;
+	margin-bottom: 0;
+	margin-top: 24px;
+	margin-right: 1%;
+}
+
+div.preface-donate {
+	min-height: 250px;
+	width: 22%;
+	margin-top: 24px;
+}
+
+div.view.view-events .node-schemaorg-event div.group-left {
+	max-width: 250px;
+	width: 30%;
+
+}
+div.view.view-events .node-schemaorg-event div.group-right {
+	width: 67%;
+}

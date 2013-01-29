@@ -1,0 +1,8 @@
+filename = "TheKenyaProject-2013-01-17T07-40-34"
+description = ""
+datestamp = "1358426436"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.18"
+sites[0][name] = "The Kenya Project"
+sites[0][url] = "http://kenya.lightyourmusic.com/"

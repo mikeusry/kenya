@@ -1,0 +1,55 @@
+/* @override 
+	http://prolifikbase.loc/sites/all/themes/prolifik/css/prolifik-alpha-default-narrow.css?medkgg
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-narrow.css?mginps
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-narrow.css?mgiswl
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-narrow.css?mgivzk
+	http://kenya.lightyourmusic.com/sites/all/themes/prolifik/css/prolifik-alpha-default-narrow.css?mgj3ce */
+
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+
+/* User */
+#region-user-first,
+#region-user-second {
+  margin: 0;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  width: 50%;
+}
+
+/* Search Form */
+#block-search-form {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 25px;
+  width: 300px;
+  z-index: 1;
+}
+#region-menu nav.navigation ul.menu li.leaf {display: block; float: left;
+}
+
+nav.navigation {
+	display: block;
+	text-align: center;
+}
+
+
+div.preface-blog, div.preface-sponsor {
+	width: 46%;
+	float: left;
+	margin-right: 2%;
+}
+div.preface-sponsor {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div.preface-galleries, div.preface-donate {
+	width: 46%;
+	display: inline-block;
+}
+div.preface-donate {
+	min-height: 250px;
+}
